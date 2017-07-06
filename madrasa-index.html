@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Video Chat</title>
+
+	<script src="https://meet.jit.si/external_api.js"></script>
+
+</head>
+
+
+<body>
+
+<h1> Welcome To Video Chat</h1>
+	<br/>
+	<div id="meet"> 
+	</div>
+
+<script type="text/javascript">
+	var domain = "meet.madrasa.online";
+	var room = "JitsiMeetAPIExample";
+	var width = 700;
+	var height = 700;
+	var htmlElement = document.querySelector('#meet');
+	var api = new JitsiMeetExternalAPI(domain, room, width, height, htmlElement);
+
+</script>
+
+</body>
+
+</html>
